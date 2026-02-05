@@ -65,8 +65,6 @@ public class MainActivity extends AppCompatActivity implements CityDialogFragmen
 
         // Updating the database using delete + addition
     }
-
-    @Override
     public void addCity(City city){
         cityArrayList.add(city);
         cityArrayAdapter.notifyDataSetChanged();
